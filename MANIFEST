@@ -1,0 +1,6 @@
+setup.cfg
+setup.py
+amzsear/__init__.py
+amzsear/api.py
+amzsear/cli.py
+amzsear/consts.py
