@@ -1,6 +1,6 @@
 # amzSear
 
-The unofficial Amazon Product CLI & API. Easily search the amazon product diretcory from the command line without the need for an Amazon API key. 
+The unofficial Amazon Product CLI & API. Easily search the amazon product directory from the command line without the need for an Amazon API key.
 
 Wondering about about an amazon product listing? Find the amzSear!
 
@@ -34,7 +34,7 @@ $ amzsear 'Harry Potter Books'
 19   Overworld Chronicles Box Set Books 1-4: Urban Fantasy T  $3.18      ****
 ```
 
-![Amazon Comparisson Shot](amazon_screenshot.png)
+![Amazon Comparison Shot](amazon_screenshot.png)
 
 ### Installation
 
@@ -49,15 +49,15 @@ $ pip install amzsear
 ### Usage
 
 #### CLI
-Typing `amzsear` without any additionaly arguments will display the folllowing usage information:
+Typing `amzsear` without any additionally arguments will display the following usage information:
 
 ```
 Usage: amzsear query_string [-p num [-i num]] [-q] [-v] [-d]
 ```
-###### Optional Paratmeters
+###### Optional Parameters
 - `-p num` - Specify the page number to search (defaults to `-p 1`)
 - `-i num` - Select the number item to display (relative to the page number)
-- `-q` - Disable any printout from occuring on the command line
+- `-q` - Disable any printout from occurring on the command line
 - `-v` - Display all information scraped (name, url, all prices, rating string)
 - `d` - Disable the page from opening in your default web browser
 
@@ -71,7 +71,7 @@ The API can be used to download Amazon data within a Python script. The main met
 >>> (products,url) = api.getSearchPage('Harry Potter Books',page_num=1)
 ```
 
-The products returned from `getSearchPage` and `getItem` have unrefined data which, whilst usable, usually requires some cleansing. Consequently, the methods  `getCleanPrices` and `getRatingValue` can be used to recieve numeric information from the data collected.
+The products returned from `getSearchPage` and `getItem` have unrefined data which, whilst usable, usually requires some cleansing. Consequently, the methods  `getCleanPrices` and `getRatingValue` can be used to receive numeric information from the data collected.
 
 ### About
-This library was designed to facilitate the use of amazon search on the command line whilst also providing a utility to easily scrape basic product information from Amazon (for those without access to Amazon's Product API). The developer does, however, append an Amazon Affiliate Tag in order to track usage of this software and to monetise this and other publicly accessible projects.
+This library was designed to facilitate the use of amazon search on the command line whilst also providing a utility to easily scrape basic product information from Amazon (for those without access to Amazon's Product API). The developer does, however, append an Amazon Affiliate Tag in order to track usage of this software and to monetize this and other publicly accessible projects.
