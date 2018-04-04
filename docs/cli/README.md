@@ -1,6 +1,6 @@
 ## CLI
 
-The amzSear CLI is the main entry point for using the amzSear package. It is similar to the [original version](../legacy/v1) and backwards has been maintained where possible. However some features had to be changed consequently some CLI commands had to be changed, as discussed [below](#comparison-to-version-1).
+The amzSear CLI is the main entry point for using the amzSear package. It is similar to the [original version](../../legacy/v1) and backwards has been maintained where possible. However some features had to be changed consequently some CLI commands had to be changed, as discussed [below](#comparison-to-version-1).
 
 The CLI, in it's basic form can still be used in the following way:
 
