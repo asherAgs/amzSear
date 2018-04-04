@@ -9,7 +9,7 @@ except ImportError:
 
 
 """
-
+    Decorator for valid data in an object, returns default if not valid
 """
 def requires_valid_data(default=None):
     def funcParams(f):
@@ -24,7 +24,7 @@ def requires_valid_data(default=None):
 
 
 """
-
+    Decorator to capture exception and pass a default instead
 """
 def capture_exception(error, default=None):
     def funcParams(f):
@@ -38,6 +38,7 @@ def capture_exception(error, default=None):
 
 
 """
+    Builds a url based on a query
 """
 def build_url(url=None, query='', page_num=1, region=DEFAULT_REGION):
     if url == None:
@@ -59,7 +60,7 @@ def build_url(url=None, query='', page_num=1, region=DEFAULT_REGION):
 
 
 """
-
+    Builds URL based on region
 """
 def build_base_url(region=DEFAULT_REGION):
     find_region = region.upper()

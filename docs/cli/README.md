@@ -24,7 +24,7 @@ usage: amzsear [-h] [-p PAGE] [-i ITEM]
 *query*: The query string to search Amazon.
 
 ###### Optional Args
-*-h*: Display extended help & usage information.  
+*-h, --help*: Display extended help & usage information.  
 *-p NUM, --page NUM*: The page number to be searched (defaults to 1).  
 *-i NUM, --item NUM*: The item index to be displayed (relative to the page). If no item is specified, the entire page's products will be displayed.  
 *-r STR, --region STR*: The amazon country/region to be searched (defaults to. For a list of countries to country code see the [region table](../regions.md).  

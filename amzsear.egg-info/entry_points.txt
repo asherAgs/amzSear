@@ -1,0 +1,3 @@
+[console_scripts]
+amzsear = amzsear.cli.cli:run
+
