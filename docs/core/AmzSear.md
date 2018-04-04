@@ -17,13 +17,13 @@ Whilst it may appear that multiple different arguments can be passed to the cons
 
 ```
 (query, [page], [region])
-		   |
+           |
          (url)
-		   |
+           |
          (html)
-		   |
+           |
      (html_element)
-		   |
+           |
        (products)
 ```
 

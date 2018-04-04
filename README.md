@@ -78,7 +78,7 @@ However, additional options can be set to select the page number, item number, r
 $ amzsear 'Harry Potter' -p 2 -i 35 --output json
 ```
 
-The above query will display the item at index 35 on page 2 as a JSON object. For more examples and for extended usage information see the [CLI Readme](cli/README.md).
+The above query will display the item at index 35 on page 2 as a JSON object. For more examples and for extended usage information see the [CLI Readme](docs/cli/README.md).
 
 
 #### API
@@ -110,7 +110,7 @@ subtext             ['by Sarah-Jane Williams and FlyingKids']
 [8.37, 10.9]
 ```
 
-For a complete explanation of the intricacies of the amzSear core API, see the [API docs](core/).
+For a complete explanation of the intricacies of the amzSear core API, see the [API docs](docs/core/).
 
 
 
@@ -140,7 +140,7 @@ For a complete explanation of the intricacies of the amzSear core API, see the [
 * Simpler usability and clearer command line interface
 * Multiple command line export formats - CSV, JSON, etc.
 
-A more in depth understanding of the latest features of the CLI can be explored in the [CLI Readme](cli/README.md). A complete breakdown of the core API's extended features can be seen in the core [API docs](core/).
+A more in depth understanding of the latest features of the CLI can be explored in the [CLI Readme](docs/cli/README.md). A complete breakdown of the core API's extended features can be seen in the core [API docs](docs/core/).
 
 ### About
 
