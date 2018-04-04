@@ -55,7 +55,7 @@ For those wanting to upgrade to version 2, use the command:
 $ pip install amzsear --upgrade
 ```
 
-Note: The [Pandas](https://pandas.pydata.org/) package is not a required dependency for amzSear, however a few methods do use it (see [AmzSear.md](core/AmzSear.md#to_dataframe), [AmzBase.md](core/AmzBase.md#to_series)) if one wants to integrate with Pandas. If this is the case, pandas should be installed separately using:
+Note: The [Pandas](https://pandas.pydata.org/) package is not a required dependency for amzSear, however a few methods do use it (see [AmzSear.md](docs/core/AmzSear.md#to_dataframe), [AmzBase.md](docs/core/AmzBase.md#to_series)) if one wants to integrate with Pandas. If this is the case, pandas should be installed separately using:
 ```
 $ pip install pandas
 ```
