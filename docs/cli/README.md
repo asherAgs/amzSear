@@ -34,7 +34,7 @@ usage: amzsear [-h] [-p PAGE] [-i ITEM]
 * *verbose*: The complete amzSear representation taken from the core api representation.
 * *quiet*: No output is produced.
 * *csv*: A quoted csv of all products with with all fields flattened, including the index.
-* *json*: A Json object of all products with all fields with the product's index as the top-level key.
+* *json*: A JSON object of all products with all fields with the product's index as the top-level key.
 
 <a name="comparison-to-version-1"></a>
 ##### Comparison to Version 1
@@ -116,7 +116,7 @@ In this example a csv of all products from the first page of search results is p
 ```
 $ amzsear 'Harry Potter' -p 2 -i 35 --output json
 ```
-In this final example a Json object of the item at index 35 on page 2 is displayed.
+In this final example a JSON object of the item at index 35 on page 2 is displayed.
 
 
 
