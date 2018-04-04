@@ -68,13 +68,13 @@ AmzSear can be used in two ways, from the command line and as a Python package.
 #### CLI
 The amzSear CLI allows Amazon search queries to be performed directly from the command line. In it's simplest form, the CLI only requires a query.
 
-```python
+```
 $ amzsear 'Harry Potter Books'
 ```
 
 However, additional options can be set to select the page number, item number, region or the output format. For example:
 
-```python
+```
 $ amzsear 'Harry Potter' -p 2 -i 35 --output json
 ```
 

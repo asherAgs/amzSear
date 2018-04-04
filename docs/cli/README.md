@@ -4,7 +4,7 @@ The amzSear CLI is the main entry point for using the amzSear package. It is sim
 
 The CLI, in it's basic form can still be used in the following way:
 
-```python
+```
 $ amzsear 'Harry Potter Books'
 ```
 
@@ -41,7 +41,7 @@ usage: amzsear [-h] [-p PAGE] [-i ITEM]
 
 ###### Verbose Argument
 In the previous version of amzSear, a verbose option could be displayed by adding the `-v` argument. However this can now be done through the output argument. For example:
-```python
+```
 $ amzsear 'Harry Potter' --output verbose
 
 OR
@@ -51,7 +51,7 @@ $ amzsear 'Harry Potter' -o verbose
 
 ###### Quiet Argument
 Similar to the verbose argument, a quiet option could be used in the previous version of amzSear by adding the `-q` argument. However this can now be done through the output argument. For example:
-```python
+```
 $ amzsear 'Harry Potter' --output quiet
 
 OR
@@ -63,7 +63,7 @@ $ amzsear 'Harry Potter' -o quiet
 ##### Examples
 
 ###### Example 1
-```python
+```
 $ amzsear 'Harry Potter' -p 1
 
 	OR
@@ -73,7 +73,7 @@ $ amzsear 'Harry Potter' --page 1
 In the above example, the first page of results for the query `Harry Potter` will be displayed. The query `amzsear 'Harry Potter'` would have the same result as the default page number is 1.
 
 ###### Example 2
-```python
+```
 $ amzsear 'Harry Potter' -i 20
 
 	OR
@@ -83,7 +83,7 @@ $ amzsear 'Harry Potter' --item 20
 This example will display the item at index 20 of page 1 (as page 1 is the default). If the index could not be found on page 1 an empty result will appear.
 
 ###### Example 3
-```python
+```
 $ amzsear 'Harry Potter' -r ES
 
 	OR
@@ -93,7 +93,7 @@ $ amzsear 'Harry Potter' --region ES
 Example 3 will display all results from the `Harry Potter` searching the Spanish Amazon website. 
 
 ###### Example 4
-```python
+```
 $ amzsear 'Harry Potter' -d
 
 	OR
@@ -103,7 +103,7 @@ $ amzsear 'Harry Potter' --dont-open
 This example will produce the same output as it would without the `-d` option, however the page will not be opened in the default browser.
 
 ###### Example 5
-```python
+```
 $ amzsear 'Harry Potter' -o csv > harry_amzsear.csv
 
 	OR
@@ -113,7 +113,7 @@ $ amzsear 'Harry Potter' --output csv > harry_amzsear.csv
 In this example a csv of all products from the first page of search results is produced and then piped into a csv called `harry_amzsear.csv`.
 
 ###### Example 6
-```python
+```
 $ amzsear 'Harry Potter' -p 2 -i 35 --output json
 ```
 In this final example a Json object of the item at index 35 on page 2 is displayed.
