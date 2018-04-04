@@ -119,17 +119,17 @@ For a complete explanation of the intricacies of the amzSear core API, see the [
 
 | Feature                                                        | v 1.0 | v 2.0 |
 |----------------------------------------------------------------|-------|-------|
-| Command line Amazon queries                                    | ✔     | ✔     |
-| Command line conversion to CSV or JSON                         |       | ✔     |
-| Support for US Amazon                                          | ✔     | ✔     |
-| Support across __all__ Amazon regions                          |       | ✔     |
-| Single page API queries                                        | ✔     | ✔     |
-| Multiple page API queries                                      |       | ✔     |
-| Dedicated AmzSear class & subclasses                           |       | ✔     |
-| Extraction of (title, url, prices & rating)                    | ✔     | ✔     |
-| Extraction of (image_url, rating's count, extra text, subtext) |       | ✔     |
-| Consistent extraction across Amazon sites                      |       | ✔     |
-| Support for API input from query or url or html directly       |       | ✔     |
+| Command line Amazon queries                                    | ✓     | ✓     |
+| Command line conversion to CSV or JSON                         |       | ✓     |
+| Support for US Amazon                                          | ✓     | ✓     |
+| Support across __all__ Amazon regions                          |       | ✓     |
+| Single page API queries                                        | ✓     | ✓     |
+| Multiple page API queries                                      |       | ✓     |
+| Dedicated AmzSear class & subclasses                           |       | ✓     |
+| Extraction of (title, url, prices & rating)                    | ✓     | ✓     |
+| Extraction of (image_url, rating's count, extra text, subtext) |       | ✓     |
+| Consistent extraction across Amazon sites                      |       | ✓     |
+| Support for API input from query or url or html directly       |       | ✓     |
 
 
 ##### Summary
