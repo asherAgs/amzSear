@@ -44,7 +44,7 @@ In the previous version of amzSear, a verbose option could be displayed by addin
 ```
 $ amzsear 'Harry Potter' --output verbose
 
-OR
+	OR
 
 $ amzsear 'Harry Potter' -o verbose
 ```
@@ -54,7 +54,7 @@ Similar to the verbose argument, a quiet option could be used in the previous ve
 ```
 $ amzsear 'Harry Potter' --output quiet
 
-OR
+	OR
 
 $ amzsear 'Harry Potter' -o quiet
 ```
