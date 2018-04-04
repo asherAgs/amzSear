@@ -1,8 +1,8 @@
 Metadata-Version: 1.0
 Name: amzsear
-Version: 1.9.16
+Version: 2.0.0
 Summary: The unofficial Amazon search CLI & Python API
-Home-page: https://github.com/asherAgs/amzSear_staging
+Home-page: https://github.com/asherAgs/amzSear
 Author: Asher Silvers
 Author-email: ashersilvers@gmail.com
 License: MIT

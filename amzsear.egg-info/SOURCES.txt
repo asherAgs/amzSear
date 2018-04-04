@@ -4,7 +4,6 @@ requirements.txt
 setup.cfg
 setup.py
 amzsear/__init__.py
-amzsear/temp_file.py
 amzsear.egg-info/PKG-INFO
 amzsear.egg-info/SOURCES.txt
 amzsear.egg-info/dependency_links.txt
