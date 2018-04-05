@@ -112,8 +112,8 @@ def print_short(cls):
     format_str = []
     for field in fields:
         #get longest in each field into format_str
-        format_str.append('{:%d}' % (max(len(x[field]) for x in rows)))
-    format_str = '  '.join(format_str)
+        format_str.append('{:%d}' % (max(len(x[field]) for x in rows)+ 1))
+    format_str = ' '.join(format_str)
 
     for row in rows:
         print(format_str.format(*[row.get(x,'') for x in fields])) # print in order
