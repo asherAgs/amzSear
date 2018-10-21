@@ -125,4 +125,11 @@ class AmzProduct(AmzBase):
             prices += [re.sub(',','',x) for x in re.findall('[\d.,]+', self.prices[k])]
 
         return sorted(map(float,prices))
+        
+    def get_asin(self):
+        result = re.search('(?:/|%2F)dp(?:/|%2F)(B\d[0-9A-Z]{8})', self.product_url)
+        if result is not None:
+            result = result.group(1)
+        return result
+
 
