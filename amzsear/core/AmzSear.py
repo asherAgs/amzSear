@@ -80,10 +80,11 @@ class AmzSear(object):
             html_element = [html_module.fromstring(h) for h in html]
         if html_element != None:
             html_element = get_iter(html_element)
+            products = []
             for html_el in html_element:
-                products = html_el.cssselect('li[id*="result_"]')
-                products = [x for x in products if x.cssselect('h2')]
-                products = [AmzProduct(elem) for elem in products]
+                products_temp = html_el.cssselect('li[id*="result_"]')
+                products_temp = [x for x in products_temp if x.cssselect('h2')]
+                products.extend([AmzProduct(elem) for elem in products_temp])
         if products != None:
             products = get_iter(products)
             products = [prod for prod in products if prod.is_valid()]
