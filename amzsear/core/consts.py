@@ -4,6 +4,7 @@ REPR_MAX_LEN_DEFAULT = 90
 #URL CODES
 REGION_CODES = {
     'AU': '.com.au',
+    'AE': '.ae',
     'BR': '.com.br',
     'CA': '.ca',
     'CN': '.cn',
