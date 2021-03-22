@@ -15,6 +15,6 @@ setup(
       'amzsear = amzsear.cli:run',
      ],
   },
-  install_requires = ['lxml==3.8.0','requests==2.18.1'],
+  install_requires = ['lxml==4.6.3','requests==2.18.1'],
 
 )
