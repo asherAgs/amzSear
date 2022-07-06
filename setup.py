@@ -16,6 +16,6 @@ setup(
      ],
   },
   install_requires=[
-    'lxml==3.8',
+    'lxml==4.9.1',
   ],
 )
